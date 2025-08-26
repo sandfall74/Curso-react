@@ -1,0 +1,8 @@
+.item-row{display:flex; 
+    align-items:center;
+            gap:10px;
+            margin-top:10px;
+        }
+
+.text-With{width:150px
+        }
