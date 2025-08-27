@@ -4,7 +4,7 @@ import { useState } from "react";
 import styles from './ItemCounter.module.css'
 interface Props {
   name: string;
-  quantity: number | undefined;
+  quantity?: number | undefined;
 }
 
 export const ItemCounter = ({ name, quantity = 1 }: Props) => {
