@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 interface Props {
-    Holder:string;
-    ButtonText:string;
+    Holder?:string;
+    ButtonText?:string;
     onQuery:(query:string)=>void;
 }
 
